@@ -85,6 +85,51 @@ li {
     right: 0;
 }
 
+/* My Skills */
+.mySkills {
+    text-align: center;
+    margin-top: 50px;
+}
+.flexContainer {
+    display: flex;
+    text-align: center;
+}
+.flexContainer div {
+    width: 33%;
+    padding: 20px;
+}
+
+/* My Work */
+.myWork {
+    text-align: center;
+}
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr  10px 1fr 1fr 10px 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "project1 project1 . . . . project3 project3"
+        "project1 project1 . project2 project2 . project3 project3"
+        ". . . project2 project2 . . ."
+        ;
+    padding: 10px;
+}
+.project1 {
+    grid-area: project1;
+    background-color: #FFD688;
+    border-radius: 25px;
+}
+.project2 {
+    grid-area: project2;
+    background-color: #C3ECFF;
+    border-radius: 25px;
+}
+.project3 {
+    grid-area: project3;
+    background-color: #FFB9F4;
+    border-radius: 25px;
+}
+
 /* Footer */
 footer {
     background-color: #373738;
