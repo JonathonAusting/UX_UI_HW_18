@@ -119,18 +119,21 @@ li {
     background-color: #FFD688;
     border-radius: 25px;
     padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project2 {
     grid-area: project2;
-    background-color: #C3ECFF;
+    background-color: white;
     border-radius: 25px;
     padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project3 {
     grid-area: project3;
     background-color: #FFB9F4;
     border-radius: 25px;
     padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .pro-button {
     display: inline-block;
