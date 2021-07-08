@@ -118,16 +118,52 @@ li {
     grid-area: project1;
     background-color: #FFD688;
     border-radius: 25px;
+    padding-top: 10px;
 }
 .project2 {
     grid-area: project2;
     background-color: #C3ECFF;
     border-radius: 25px;
+    padding-top: 10px;
 }
 .project3 {
     grid-area: project3;
     background-color: #FFB9F4;
     border-radius: 25px;
+    padding-top: 10px;
+}
+.pro-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #C3ECFF;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    width: 125px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.pro-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.pro-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.pro-button:hover span {
+    padding-right: 25px;
+}
+.pro-button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 /* Footer */
