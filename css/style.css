@@ -193,7 +193,6 @@ footer {
         grid-template-areas:
             "project1"
             "project2"
-            "project3"
             ;
     }
 }
