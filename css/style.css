@@ -179,3 +179,21 @@ footer {
     padding: 1%;
     color: white;
 }
+
+/* Media Query */
+@media only screen and (max-width: 600) {
+    .flexContainer {
+        display: flex;
+        align-items: center;
+    }
+    .workGrid {
+        display: grid;
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "project1"
+            "project2"
+            "project3"
+            ;
+    }
+}
